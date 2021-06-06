@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { View } from 'react-native';
-import { Text } from "react-native-elements";
+import { View, Text } from 'react-native';
 import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
+import ImageHome from '../../helpers/ImageHome';
 
 const Index = () => {
   global.currentScreenIndex = 'Home';
@@ -10,11 +10,12 @@ const Index = () => {
   
   return (
     <View style={ styles.container }>
-      <Text style={ styles.title }>
+      <Text style={styles.title}>
         { translations['home']['title'] }
       </Text>
-      <Text style={ styles.subtitle }>
-        { translations['home']['subtitle'] }
+      <ImageHome/>
+      <Text style={styles.description}>
+        { translations['home']['description'] }
       </Text>
     </View>
   );

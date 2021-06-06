@@ -4,13 +4,15 @@ const Styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        marginTop: 100,
+        marginTop: 20,
     },
     title: {
         fontSize: 23,
+        marginBottom: 20,
     },
-    subtitle: {
+    description: {
         fontSize: 18,
+        marginTop: 20,
     }
 });
 
