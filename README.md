@@ -5,10 +5,10 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
 # Tecnologies
 
-- react native
-- yarn
-- open JDK 14
-- gradle 6.5
+- React Native 0.62
+- Yarn 1.22
+- OpenJDK 14
+- Gradle 6.5
 
 # Development
 
