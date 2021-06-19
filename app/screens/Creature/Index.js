@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
 
-const Creature = () => {
+const CreatureScreen = () => {
   const { translations, initializeAppLanguage } = useContext(LocalizationContext);
   
   return (
@@ -17,4 +17,4 @@ const Creature = () => {
     </View>
   );
 };
-export default Creature;
+export default CreatureScreen;

@@ -5,6 +5,10 @@
   },
   "creature": {
     "title": "Creatures",
-    "description": "Creatures description"
+    "description": "Creatures of description"
+  },
+  "spell": {
+    "title": "Spells",
+    "description": "Spells of description"
   }
 }

@@ -4,7 +4,7 @@ import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
 import ImageHome from 'helpers/ImageHome';
 
-const Index = () => {
+const HomeScreen = () => {
   global.currentScreenIndex = 'Home';
   const { translations, initializeAppLanguage } = useContext(LocalizationContext);
   
@@ -20,4 +20,4 @@ const Index = () => {
     </View>
   );
 };
-export default Index;
+export default HomeScreen;

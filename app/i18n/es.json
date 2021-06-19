@@ -6,5 +6,9 @@
   "creature": {
     "title": "Criaturas",
     "description": "Descripción de criaturas"
+  },
+  "spell": {
+    "title": "Magia",
+    "description": "Descripción de magias"
   }
 }
