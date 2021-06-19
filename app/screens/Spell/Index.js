@@ -35,6 +35,7 @@ const SpellScreen = () => {
             <View style={ styles.cardStyle }>
               <Text>Name: { item.name }</Text>
               <Text>Level: { item.level }</Text>
+              <Text>Effect: { item.effect }</Text>
             </View>
           )}
         />
