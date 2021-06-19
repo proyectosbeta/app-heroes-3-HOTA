@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { View, Text } from 'react-native';
 import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
-import ImageHome from '../../helpers/ImageHome';
+import ImageHome from 'helpers/ImageHome';
 
 const Index = () => {
   global.currentScreenIndex = 'Home';
