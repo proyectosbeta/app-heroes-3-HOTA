@@ -2,5 +2,9 @@
   "home": {
     "title": "Welcome to Heroes III HOTA",
     "description": "Is a guide to be able to complement in your games"
+  },
+  "creature": {
+    "title": "Creatures",
+    "description": "Creatures description"
   }
 }

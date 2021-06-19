@@ -1,14 +1,18 @@
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-import Index from 'screens/Home/Index'; 
+import * as React from 'react';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import Home from 'screens/Home/Index';
+import Creature from 'screens/Creature/Index';
 
-const AppNavigator = createStackNavigator(
-  {
-    Home: Index
-  },
-  {
-    initialRouteName: 'Home'
-  }
-);
+const Drawer = createDrawerNavigator();
 
-export default createAppContainer(AppNavigator);
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen name="Home" component={Home} />
+        <Drawer.Screen name="Creature" component={Creature} />
+      </Drawer.Navigator>
+    </NavigationContainer>
+  );
+}

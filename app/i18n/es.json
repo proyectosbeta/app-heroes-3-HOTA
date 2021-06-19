@@ -2,5 +2,9 @@
   "home": {
     "title": "Bienvenido a Heroes III HOTA",
     "description": "Es una guía para poder complementar en tus partidas"
+  },
+  "creature": {
+    "title": "Criaturas",
+    "description": "Descripción de criaturas"
   }
 }
