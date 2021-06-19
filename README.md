@@ -12,9 +12,13 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
 # Development
 
+One terminal:
+
 ```
 react-native start
 ```
+
+Another terminal:
 
 ```
 cd android && ./gradlew clean && cd ../
