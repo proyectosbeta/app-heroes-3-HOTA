@@ -29,16 +29,18 @@ const SpellScreen = () => {
         {/* <Text style={ styles.description }>
           { translations['spell']['description'] }
         </Text> */}
-        <FlatList
-          data={data}
-          renderItem={({ item }) => (
-            <View style={ styles.cardStyle }>
-              <Text>Name: { item.name }</Text>
-              <Text>Level: { item.level }</Text>
-              <Text>Effect: { item.effect }</Text>
-            </View>
-          )}
-        />
+        <View style={{padding:10}}>
+          <FlatList
+            data={data}
+            renderItem={({ item }) => (
+              <View style={ styles.card }>
+                <Text>Name: { item.name }</Text>
+                <Text>Level: { item.level }</Text>
+                <Text>Effect: { item.effect }</Text>
+              </View>
+            )}
+          />
+        </View>
       </View>
   </>
   );
