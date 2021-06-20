@@ -20,17 +20,21 @@ const Styles = StyleSheet.create({
         padding: 10,
         margin: 10,
     },
+    imgContainer: {
+        flexDirection: 'row'
+    },
     image: {
-        borderRadius: 10,
-        padding: 10,
-        margin: 10,
-        alignItems: 'center',
+        resizeMode: 'contain',
+        flex: 1,
+        aspectRatio: 1,
+        margin: 50,
     },
     info: {
-        // backgroundColor: "rgba(0, 0, 0, 0.1)",
         borderRadius: 10,
         padding: 10,
-        margin: 10,
+        marginTop: -35,
+        marginLeft: 20,
+        marginBottom: 10,
     }
 });
 

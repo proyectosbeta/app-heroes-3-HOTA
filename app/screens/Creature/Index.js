@@ -34,16 +34,24 @@ const CreatureScreen = ({ navigation }) => {
             data={data}
             renderItem={({ item }) => (
               <View style={ styles.card }>
-                <View style={ styles.image }>
+                <View style={ styles.imgContainer }>
                   <Image
                     source={{uri: item.imageUrl }}
-                    style={{width: 120, height: 250 }}
+                    style={ styles.image }
                   />
                 </View>
                 <View style={ styles.info }>
                   <Text>Name: { item.name }</Text>
                   <Text>Level: { item.level }</Text>
                   <Text>Attack: { item.attack }</Text>
+                  <Text>Defense: { item.defense }</Text>
+                  <Text>Damage: { item.damage }</Text>
+                  <Text>Health: { item.health }</Text>
+                  <Text>Speed: { item.speed }</Text>
+                  <Text>Size: { item.size }</Text>
+                  <Text>Shots: { item.shots }</Text>
+                  <Text>AI value: { item.aiValue }</Text>
+                  <Text>Special abilities: { item.specialAbilities }</Text>
                 </View>
               </View>
             )}
