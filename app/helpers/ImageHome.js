@@ -9,5 +9,6 @@ const ImageHome = () => (
        require('assets/images/HeroesIIIHOTA.jpg')
      }
    />
-)
-export default ImageHome
+);
+
+export default ImageHome;

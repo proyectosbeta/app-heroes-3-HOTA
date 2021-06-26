@@ -4,8 +4,7 @@
     "description": "Is a guide to be able to complement in your games"
   },
   "creature": {
-    "title": "Creatures",
-    "description": "Creatures of description"
+    "title": "Creatures"
   },
   "spell": {
     "title": "Spells",

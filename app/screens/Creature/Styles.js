@@ -2,6 +2,8 @@ import { StyleSheet } from 'react-native';
 
 const Styles = StyleSheet.create({
     container: {
+        flex: 1,
+        alignItems: 'center',
         paddingTop: 50,
     },
     title: {
@@ -38,6 +40,16 @@ const Styles = StyleSheet.create({
     },
     titleText: {
         fontSize: 18,
+    },
+    imageContainer: {
+        // backgroundColor: '#222',
+        borderRadius: 5,
+        padding: 10,
+        margin: 20
+    },
+    buttonText: {
+        fontSize: 20,
+        color: '#fff'
     }
 });
 

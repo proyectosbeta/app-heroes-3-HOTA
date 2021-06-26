@@ -13,7 +13,13 @@ const Styles = StyleSheet.create({
     description: {
         fontSize: 18,
         marginTop: 20,
-    }
+    },
+    imageContainer: {
+        backgroundColor: '#222',
+        borderRadius: 5,
+        padding: 10,
+        margin: 20
+    },
 });
 
 export default Styles;
