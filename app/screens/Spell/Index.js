@@ -21,28 +21,33 @@ const SpellScreen = () => {
   },[]);
 
   return (
-    <>
-      <View style={ styles.container }>
-        <Text style={ styles.title }>
-          { translations['spell']['title'] }
+    <View style={ styles.container }>
+      {isLoading && (
+        <Text style={styles.title}>
+          Loading...
         </Text>
-        {/* <Text style={ styles.description }>
-          { translations['spell']['description'] }
-        </Text> */}
-        <View style={{padding:10}}>
-          <FlatList
-            data={data}
-            renderItem={({ item }) => (
-              <View style={ styles.card }>
-                <Text>Name: { item.name }</Text>
-                <Text>Level: { item.level }</Text>
-                <Text>Effect: { item.effect }</Text>
-              </View>
-            )}
-          />
+      )}
+      {!isLoading && (
+        <>
+          <Text style={ styles.title }>
+            { translations['spell']['title'] }
+          </Text>
+
+          <View style={{ padding:10 }}>
+            <FlatList
+              data={data}
+              renderItem={({ item }) => (
+                <View style={ styles.card }>
+                  <Text>Name: { item.name }</Text>
+                  <Text>Level: { item.level }</Text>
+                  <Text>Effect: { item.effect }</Text>
+                </View>
+              )}
+            />    
         </View>
-      </View>
-  </>
+        </>
+      )}
+    </View>
   );
 };
 

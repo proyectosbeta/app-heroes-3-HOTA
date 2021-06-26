@@ -31,37 +31,46 @@ const Castle = ({ navigation, route }) => {
 
   return (
     <View style={ styles.container }>
-      <Text style={styles.title}>
-      { translations['creature']['title'] } { creature }
-      </Text>
-      <View style={{padding:10}}>
-        <FlatList
-            data={data}
-            renderItem={({ item }) => (
-              <View style={ styles.card }>
-                <View style={ styles.imgContainer }>
-                  <Image
-                    source={{uri: item.imageUrl }}
-                    style={ styles.image }
-                  />
-                </View>
-                <View style={ styles.info }>
-                  <Text style={ styles.titleText } >Name: { item.name }</Text>
-                  <Text style={ styles.titleText } >Level: { item.level }</Text>
-                  <Text style={ styles.titleText } >Attack: { item.attack }</Text>
-                  <Text style={ styles.titleText } >Defense: { item.defense }</Text>
-                  <Text style={ styles.titleText } >Damage: { item.damage }</Text>
-                  <Text style={ styles.titleText } >Health: { item.health }</Text>
-                  <Text style={ styles.titleText } >Speed: { item.speed }</Text>
-                  <Text style={ styles.titleText } >Size: { item.size }</Text>
-                  <Text style={ styles.titleText } >Shots: { item.shots }</Text>
-                  <Text style={ styles.titleText } >AI value: { item.aiValue }</Text>
-                  <Text style={ styles.titleText } >Special abilities: { item.specialAbilities }</Text>
-                </View>
-              </View>
-            )}
-          />
-        </View>
+      {isLoading && (
+        <Text style={styles.title}>
+          Loading...
+        </Text>
+      )}
+      {!isLoading && (
+          <>
+            <Text style={styles.title}>
+              { translations['creature']['title'] } { creature }
+            </Text>
+            <View style={{padding:10}}>
+              <FlatList
+                  data={data}
+                  renderItem={({ item }) => (
+                    <View style={ styles.card }>
+                      <View style={ styles.imgContainer }>
+                        <Image
+                          source={{uri: item.imageUrl }}
+                          style={ styles.image }
+                        />
+                      </View>
+                      <View style={ styles.info }>
+                        <Text style={ styles.titleText } >Name: { item.name }</Text>
+                        <Text style={ styles.titleText } >Level: { item.level }</Text>
+                        <Text style={ styles.titleText } >Attack: { item.attack }</Text>
+                        <Text style={ styles.titleText } >Defense: { item.defense }</Text>
+                        <Text style={ styles.titleText } >Damage: { item.damage }</Text>
+                        <Text style={ styles.titleText } >Health: { item.health }</Text>
+                        <Text style={ styles.titleText } >Speed: { item.speed }</Text>
+                        <Text style={ styles.titleText } >Size: { item.size }</Text>
+                        <Text style={ styles.titleText } >Shots: { item.shots }</Text>
+                        <Text style={ styles.titleText } >AI value: { item.aiValue }</Text>
+                        <Text style={ styles.titleText } >Special abilities: { item.specialAbilities }</Text>
+                      </View>
+                    </View>
+                  )}
+                />
+            </View>
+        </>
+      )}
     </View>
   );
 };
