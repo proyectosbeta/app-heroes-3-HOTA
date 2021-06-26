@@ -41,17 +41,17 @@ const CreatureScreen = ({ navigation }) => {
                   />
                 </View>
                 <View style={ styles.info }>
-                  <Text>Name: { item.name }</Text>
-                  <Text>Level: { item.level }</Text>
-                  <Text>Attack: { item.attack }</Text>
-                  <Text>Defense: { item.defense }</Text>
-                  <Text>Damage: { item.damage }</Text>
-                  <Text>Health: { item.health }</Text>
-                  <Text>Speed: { item.speed }</Text>
-                  <Text>Size: { item.size }</Text>
-                  <Text>Shots: { item.shots }</Text>
-                  <Text>AI value: { item.aiValue }</Text>
-                  <Text>Special abilities: { item.specialAbilities }</Text>
+                  <Text style={ styles.titleText } >Name: { item.name }</Text>
+                  <Text style={ styles.titleText } >Level: { item.level }</Text>
+                  <Text style={ styles.titleText } >Attack: { item.attack }</Text>
+                  <Text style={ styles.titleText } >Defense: { item.defense }</Text>
+                  <Text style={ styles.titleText } >Damage: { item.damage }</Text>
+                  <Text style={ styles.titleText } >Health: { item.health }</Text>
+                  <Text style={ styles.titleText } >Speed: { item.speed }</Text>
+                  <Text style={ styles.titleText } >Size: { item.size }</Text>
+                  <Text style={ styles.titleText } >Shots: { item.shots }</Text>
+                  <Text style={ styles.titleText } >AI value: { item.aiValue }</Text>
+                  <Text style={ styles.titleText } >Special abilities: { item.specialAbilities }</Text>
                 </View>
               </View>
             )}
