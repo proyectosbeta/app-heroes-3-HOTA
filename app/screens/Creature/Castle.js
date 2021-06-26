@@ -3,14 +3,21 @@ import { DOMAIN } from 'constants/domain';
 import { FlatList, View, Text, Image } from 'react-native';
 import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
-// import DetailsScreen from './Details';
 import axios from 'axios';
+
+const changeTitleNavigation = (navigation, creature) => {
+  navigation.setOptions({
+    title: creature
+  });
+}
 
 const Castle = ({ navigation, route }) => {
   const { creature } = route.params;
   const { translations, initializeAppLanguage } = useContext(LocalizationContext);
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
+
+  changeTitleNavigation(navigation, creature);
 
   useEffect(async () => {
     axios.get(`${DOMAIN}creature/${creature}`)
@@ -25,7 +32,7 @@ const Castle = ({ navigation, route }) => {
   return (
     <View style={ styles.container }>
       <Text style={styles.title}>
-        { translations['creature']['title'] }
+      { translations['creature']['title'] } { creature }
       </Text>
       <View style={{padding:10}}>
         <FlatList
@@ -54,20 +61,6 @@ const Castle = ({ navigation, route }) => {
               </View>
             )}
           />
-          {/* <FlatList
-              data={data}
-              keyExtractor={({ id }, index) => id}
-              renderItem={({ item }) => (
-                <TouchableOpacity onPress={() => {
-                    navigation.navigate(DetailsScreen, {data: item})
-                  }}
-                >
-                    <Text>
-                    +
-                    </Text>
-                </TouchableOpacity>
-              )}/> */
-          }
         </View>
     </View>
   );

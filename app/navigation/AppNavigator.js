@@ -28,12 +28,16 @@ export default function App() {
         <Stack.Screen
             name="Home"
             component={HomeScreen}
-            options={{ title: 'Home' }}
+            options={{
+              title: 'Home'
+            }}
         />
         <Stack.Screen
             name="Creature"
             component={CreatureScreen}
-            options={{ title: 'Creature' }}
+            options={{
+              title: 'Creature'
+            }}
         />
         <Stack.Screen
             name="Castle"
