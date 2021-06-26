@@ -66,7 +66,8 @@ const Castle = ({ navigation, route }) => {
                     +
                     </Text>
                 </TouchableOpacity>
-              )}/> */}
+              )}/> */
+          }
         </View>
     </View>
   );
