@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState  } from 'react';
 import { DOMAIN } from 'constants/domain';
 import { FlatList, View, Text, Image } from 'react-native';
-import styles from './MagicStyle';
+import styles from './MagicStyles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
 import axios from 'axios';
 

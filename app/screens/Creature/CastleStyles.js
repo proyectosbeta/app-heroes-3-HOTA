@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-const Styles = StyleSheet.create({
+const CastleStyles = StyleSheet.create({
     container: {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        paddingTop: 50,
+        marginTop: 20,
     },
     title: {
         textAlign: 'center',
@@ -38,4 +38,4 @@ const Styles = StyleSheet.create({
     },
 });
 
-export default Styles;
+export default CastleStyles;

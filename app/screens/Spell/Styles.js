@@ -8,8 +8,7 @@ const Styles = StyleSheet.create({
     },
     imageContainer: {
         borderRadius: 5,
-        padding: 10,
-        margin: 20
+        padding: 20,
     },
 });
 

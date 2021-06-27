@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-const MagicStyle = StyleSheet.create({
+const MagicStyles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        paddingTop: 50,
+        marginTop: 20,
     },
     title: {
         textAlign: 'center',
@@ -37,4 +37,4 @@ const MagicStyle = StyleSheet.create({
     },
 });
 
-export default MagicStyle;
+export default MagicStyles;
