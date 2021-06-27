@@ -43,7 +43,6 @@ const Styles = StyleSheet.create({
         fontSize: 18,
     },
     imageContainer: {
-        // backgroundColor: '#222',
         borderRadius: 5,
         padding: 10,
         margin: 20

@@ -5,6 +5,7 @@ import HomeScreen from 'screens/Home/Index';
 import CreatureScreen from 'screens/Creature/Index';
 import CreatureCastleScreen from 'screens/Creature/Castle';
 import SpellScreen from 'screens/Spell/Index';
+import SpellMagicScreen from 'screens/Spell/Magic';
 
 const Stack = createStackNavigator();
 
@@ -27,26 +28,31 @@ export default function App() {
       >
         <Stack.Screen
             name="Home"
-            component={HomeScreen}
+            component={ HomeScreen }
             options={{
               title: 'Home'
             }}
         />
         <Stack.Screen
             name="Creature"
-            component={CreatureScreen}
+            component={ CreatureScreen }
             options={{
               title: 'Creature'
             }}
         />
         <Stack.Screen
             name="Castle"
-            component={CreatureCastleScreen}
+            component={ CreatureCastleScreen }
         />
         <Stack.Screen
             name="Spell"
-            component={SpellScreen}
+            component={ SpellScreen }
             options={{ title: 'Spell' }}
+        />
+        <Stack.Screen
+            name="Magic"
+            component={ SpellMagicScreen }
+            options={{ title: 'Magic' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

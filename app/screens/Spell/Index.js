@@ -1,52 +1,59 @@
-import React, { useContext, useEffect, useState  } from 'react';
-import { DOMAIN } from 'constants/domain';
-import { FlatList, View, Text } from 'react-native';
+import React, { useContext } from 'react';
+import { ScrollView, TouchableOpacity, View, Text, Image } from 'react-native';
 import styles from './Styles';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
-import axios from 'axios';
 
-const SpellScreen = () => {
+const SpellScreen = ({ navigation }) => {
   const { translations, initializeAppLanguage } = useContext(LocalizationContext);
-  const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState([]);
-
-  useEffect(async () => {
-    axios.get(`${DOMAIN}spell/`)
-      .then((response) => {
-        const spells = response.data;
-        setData(spells);
-      })
-      .catch((error) => console.error(error))
-      .finally(() => setLoading(false));
-  },[]);
 
   return (
     <View style={ styles.container }>
-      {isLoading && (
-        <Text style={styles.title}>
-          Loading...
-        </Text>
-      )}
-      {!isLoading && (
-        <>
-          <Text style={ styles.title }>
-            { translations['spell']['title'] }
-          </Text>
-
-          <View style={{ padding:10 }}>
-            <FlatList
-              data={data}
-              renderItem={({ item }) => (
-                <View style={ styles.card }>
-                  <Text>Name: { item.name }</Text>
-                  <Text>Level: { item.level }</Text>
-                  <Text>Effect: { item.effect }</Text>
-                </View>
-              )}
-            />    
-        </View>
-        </>
-      )}
+      <Text style={styles.title}>
+        { translations['spell']['title'] }
+      </Text>
+      <View style={{ padding:10 }}>
+        <ScrollView
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+        >
+          <TouchableOpacity
+            style={styles.imageContainer}
+            onPress={() => navigation.navigate('Magic', {
+              magic: 'fire',
+            })}>
+            <Image
+              source={require('assets/images/spell/Fire_Magic.png')}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.imageContainer}
+            onPress={() => navigation.navigate('Magic', {
+              magic: 'water',
+            })}>
+            <Image
+              source={require('assets/images/spell/Water_Magic.png')}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.imageContainer}
+            onPress={() => navigation.navigate('Magic', {
+              magic: 'air',
+            })}>
+            <Image
+              source={require('assets/images/spell/Air_Magic.png')}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.imageContainer}
+            onPress={() => navigation.navigate('Magic', {
+              magic: 'earth',
+            })}>
+            <Image
+              source={require('assets/images/spell/Earth_Magic.png')}
+            />
+          </TouchableOpacity>
+        </ScrollView>
+      </View>
     </View>
   );
 };

@@ -17,7 +17,7 @@ const Castle = ({ navigation, route }) => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 
-  changeTitleNavigation(navigation, creature);
+  // changeTitleNavigation(navigation, creature);
 
   useEffect(async () => {
     axios.get(`${DOMAIN}creature/${creature}`)
