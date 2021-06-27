@@ -8,9 +8,6 @@ const SpellScreen = ({ navigation }) => {
 
   return (
     <View style={ styles.container }>
-      <Text style={styles.title}>
-        { translations['spell']['title'] }
-      </Text>
       <View style={{ padding:10 }}>
         <ScrollView
           showsHorizontalScrollIndicator={false}

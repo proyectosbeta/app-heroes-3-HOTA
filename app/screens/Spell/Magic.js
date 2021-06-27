@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState  } from 'react';
 import { DOMAIN } from 'constants/domain';
-import { FlatList, View, Text } from 'react-native';
-import styles from './Styles';
+import { FlatList, View, Text, Image } from 'react-native';
+import styles from './MagicStyle';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
 import axios from 'axios';
 
@@ -33,17 +33,24 @@ const MagicScreen = ({ navigation, route }) => {
       {!isLoading && (
         <>
           <Text style={ styles.title }>
-            { translations['spell']['title'] }
+            { translations['spell']['title'] } { magic }
           </Text>
-
           <View style={{ padding:10 }}>
             <FlatList
               data={data}
               renderItem={({ item }) => (
                 <View style={ styles.card }>
-                  <Text>Name: { item.name }</Text>
-                  <Text>Level: { item.level }</Text>
-                  <Text>Effect: { item.effect }</Text>
+                  <View style={ styles.imgContainer }>
+                    <Image
+                      source={{uri: item.imageUrl }}
+                      style={ styles.image }
+                    />
+                  </View>
+                  <View style={ styles.info }>
+                    <Text style={ styles.titleText } >Name: { item.name }</Text>
+                    <Text style={ styles.titleText } >Level: { item.level }</Text>
+                    <Text style={ styles.titleText } >Effect: { item.effect }</Text>
+                    </View>
                 </View>
               )}
             />    
