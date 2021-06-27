@@ -18,20 +18,22 @@ const HomeScreen = (props) => {
       <Text style={styles.description}>
         { translations['home']['description'] }
       </Text>
-      <TouchableOpacity
-        style={styles.imageContainer}
-        onPress={() => navigation.navigate('Creature')}>
+      <View style={styles.imageContainer}>
+        <TouchableOpacity
+          style={styles.image}
+          onPress={() => navigation.navigate('Creature')}>
+            <Image
+              source={require('assets/images/Creatures_ui_icon.png')}
+            />
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.image}
+          onPress={() => navigation.navigate('Spell')}>
           <Image
-            source={require('assets/images/Creatures_ui_icon.png')}
-          />
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.imageContainer}
-        onPress={() => navigation.navigate('Spell')}>
-        <Image
-            source={require('assets/images/Spells_ui_icon.png')}
-          />
-      </TouchableOpacity>
+              source={require('assets/images/Spells_ui_icon.png')}
+            />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 };

@@ -12,13 +12,17 @@ const Styles = StyleSheet.create({
     },
     description: {
         fontSize: 18,
-        marginTop: 20,
+        padding: 30,
     },
     imageContainer: {
+        flexDirection: 'row',
+        justifyContent: "space-between"
+    },
+    image: {
         backgroundColor: '#222',
         borderRadius: 5,
         padding: 10,
-        margin: 20
+        margin: 5
     },
 });
 
