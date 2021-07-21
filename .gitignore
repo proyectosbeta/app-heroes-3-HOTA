@@ -59,6 +59,4 @@ buck-out/
 /ios/Pods/
 
 # React native
-android
-ios
 __tests__
