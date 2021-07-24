@@ -14,8 +14,8 @@
     "speed": "Speed",
     "size": "Size",
     "shots": "Shots",
-    "AIValue": "AI value",
-    "SpecialAbilities": "Special abilities"
+    "aiValue": "AI value",
+    "specialAbilities": "Special abilities"
   },
   "spell": {
     "title": "Spell"

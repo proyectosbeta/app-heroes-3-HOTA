@@ -14,8 +14,8 @@
       "speed": "Скорость",
       "size": "Размер",
       "shots": "Выстрелы",
-      "AIValue": "Ai value.",
-      "SpecialAbilities": "Специальные возможности"
+      "aiValue": "Ai value.",
+      "specialAbilities": "Специальные возможности"
     },
     "spell": {
       "title": "Заклинание"

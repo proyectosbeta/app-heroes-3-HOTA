@@ -14,8 +14,8 @@
     "speed": "Velocidad",
     "size": "Tamaño",
     "shots": "Tiro",
-    "AIValue": "Valor de AI",
-    "SpecialAbilities": "Habilidades especiales"
+    "aiValue": "Valor de AI",
+    "specialAbilities": "Habilidades especiales"
   },
   "spell": {
     "title": "Magia"

@@ -63,7 +63,7 @@ const Castle = ({ navigation, route }) => {
                         <Text style={ styles.titleText } >{ translations['creature']['size'] }: { item.size }</Text>
                         <Text style={ styles.titleText } >{ translations['creature']['shots'] }: { item.shots }</Text>
                         <Text style={ styles.titleText } >{ translations['creature']['aiValue'] }: { item.aiValue }</Text>
-                        <Text style={ styles.titleText } >S{ translations['creature']['specialAbilities'] }: { item.specialAbilities }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['specialAbilities'] }: { item.specialAbilities }</Text>
                       </View>
                     </View>
                   )}

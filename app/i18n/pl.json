@@ -14,8 +14,8 @@
     "speed": "Prędkość",
     "size": "Rozmiar",
     "shots": "Strzały",
-    "AIValue": "Wartość AI",
-    "SpecialAbilities": "Specjalne zdolności"
+    "aiValue": "Wartość AI",
+    "specialAbilities": "Specjalne zdolności"
   },
   "spell": {
     "title": "Zaklęcie"
