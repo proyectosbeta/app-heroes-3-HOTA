@@ -1,3 +1,8 @@
+# v0.3.0
+
+- Add setting screen.
+- Add russian and polish languages.
+
 # v0.2.1
 
 - Change icon app for Android.

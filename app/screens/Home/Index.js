@@ -23,21 +23,21 @@ const HomeScreen = (props) => {
           style={styles.image}
           onPress={() => navigation.navigate('Creature')}>
             <Image
-              source={require('assets/images/Creatures_ui_icon.png')}
+              source={require('assets/images/Creature.png')}
             />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.image}
           onPress={() => navigation.navigate('Spell')}>
           <Image
-              source={require('assets/images/Spells_ui_icon.png')}
+              source={require('assets/images/Spell.png')}
             />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.image}
           onPress={() => navigation.navigate('Setting')}>
           <Image
-              source={require('assets/images/Spells_ui_icon.png')}
+              source={require('assets/images/Setting.png')}
             />
         </TouchableOpacity>
       </View>
