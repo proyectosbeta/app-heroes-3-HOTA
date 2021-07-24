@@ -1,7 +1,7 @@
 # v0.3.0
 
 - Add setting screen.
-- Add russian and polish languages.
+- Add Russian and Polish languages.
 
 # v0.2.1
 
