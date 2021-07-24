@@ -15,20 +15,20 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
 One terminal:
 
-```
+```bash
 react-native start
 ```
 
 Another terminal:
 
-```
+```bash
 cd android && ./gradlew clean && cd ../
 npx react-native run-android
 ```
 
 # Developer debug
 
-```
+```bash
 cd android && ./gradlew assembleRelease && cd ../
 ```
 
@@ -36,7 +36,7 @@ cd android && ./gradlew assembleRelease && cd ../
 
 At the root of the project.
 
-```
+```bash
 react-native run-android --variant=release
 ```
 
