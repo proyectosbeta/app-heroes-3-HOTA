@@ -12,5 +12,6 @@
     "setting": {
       "title": "Параметр",
       "changeLanguage": "изменение языка"
-    }
+    },
+    "loading": "Loading..."
   }

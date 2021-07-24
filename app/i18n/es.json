@@ -12,5 +12,6 @@
   "setting": {
     "title": "Configuración",
     "changeLanguage": "Cambiar idioma"
-  }
+  },
+  "loading": "Cargando..."
 }

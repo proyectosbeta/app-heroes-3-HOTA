@@ -33,7 +33,7 @@ const Castle = ({ navigation, route }) => {
     <View style={ styles.container }>
       {isLoading && (
         <Text style={styles.title}>
-          Loading...
+          { translations['loading'] }
         </Text>
       )}
       {!isLoading && (
