@@ -33,6 +33,13 @@ const HomeScreen = (props) => {
               source={require('assets/images/Spells_ui_icon.png')}
             />
         </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.image}
+          onPress={() => navigation.navigate('Setting')}>
+          <Image
+              source={require('assets/images/Spells_ui_icon.png')}
+            />
+        </TouchableOpacity>
       </View>
     </View>
   );

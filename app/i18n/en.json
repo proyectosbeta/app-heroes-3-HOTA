@@ -7,6 +7,10 @@
     "title": "Creatures"
   },
   "spell": {
-    "title": "Spells"
+    "title": "Spell"
+  },
+  "setting": {
+    "title": "Setting",
+    "changeLanguage": "Change language"
   }
 }

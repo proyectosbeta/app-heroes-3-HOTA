@@ -6,6 +6,7 @@ import CreatureScreen from 'screens/Creature/Index';
 import CreatureCastleScreen from 'screens/Creature/Castle';
 import SpellScreen from 'screens/Spell/Index';
 import SpellMagicScreen from 'screens/Spell/Magic';
+import SettingScreen from 'screens/Setting/Index';
 
 const Stack = createStackNavigator();
 
@@ -53,6 +54,11 @@ export default function App() {
             name="Magic"
             component={ SpellMagicScreen }
             options={{ title: 'Magic' }}
+        />
+        <Stack.Screen
+            name="Setting"
+            component={ SettingScreen }
+            options={{ title: 'Setting' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

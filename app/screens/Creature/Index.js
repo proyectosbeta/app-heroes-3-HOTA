@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { ScrollView, TouchableOpacity, View, Text, Image } from 'react-native';
 import styles from './Styles';
-// import ImageCastle from 'helpers/ImageCastle';
 import { LocalizationContext } from 'services/localization/LocalizationContext';
 
 const CreatureScreen = ({ navigation }) => {

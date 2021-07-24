@@ -8,5 +8,9 @@
   },
   "spell": {
     "title": "Magia"
+  },
+  "setting": {
+    "title": "Configuración",
+    "changeLanguage": "Cambiar idioma"
   }
 }

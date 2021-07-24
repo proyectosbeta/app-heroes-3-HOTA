@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "Witamy w Heroes III HOTA ",
+    "description": "Jest przewodnikiem, aby móc uzupełnić swoje gry"
+  },
+  "creature": {
+    "title": "Stworzenia"
+  },
+  "spell": {
+    "title": "Zaklęcie"
+  },
+  "setting": {
+    "title": "Ustawienie",
+    "changeLanguage": "Zmień język"
+  }
+}
