@@ -1,3 +1,7 @@
+# v0.2.1
+
+- Change icon app for Android.
+
 # v0.2.0
 
 - Change the home screen.
