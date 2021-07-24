@@ -4,7 +4,18 @@
     "description": "Is a guide to be able to complement in your games"
   },
   "creature": {
-    "title": "Creatures"
+    "title": "Creatures",
+    "name": "Name",
+    "level": "Level",
+    "attack": "Attack",
+    "defense": "Defense",
+    "damage": "Damage",
+    "health": "Health",
+    "speed": "Speed",
+    "size": "Size",
+    "shots": "Shots",
+    "AIValue": "AI value",
+    "SpecialAbilities": "Special abilities"
   },
   "spell": {
     "title": "Spell"

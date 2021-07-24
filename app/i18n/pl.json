@@ -4,7 +4,18 @@
     "description": "Jest przewodnikiem, aby móc uzupełnić swoje gry"
   },
   "creature": {
-    "title": "Stworzenia"
+    "title": "Stworzenia",
+    "name": "Nazwa",
+    "level": "Poziom",
+    "attack": "Atak",
+    "defense": "Obrona",
+    "damage": "Szkoda",
+    "health": "Zdrowie",
+    "speed": "Prędkość",
+    "size": "Rozmiar",
+    "shots": "Strzały",
+    "AIValue": "Wartość AI",
+    "SpecialAbilities": "Specjalne zdolności"
   },
   "spell": {
     "title": "Zaklęcie"

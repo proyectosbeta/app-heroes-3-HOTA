@@ -53,17 +53,17 @@ const Castle = ({ navigation, route }) => {
                         />
                       </View>
                       <View style={ styles.info }>
-                        <Text style={ styles.titleText } >Name: { item.name }</Text>
-                        <Text style={ styles.titleText } >Level: { item.level }</Text>
-                        <Text style={ styles.titleText } >Attack: { item.attack }</Text>
-                        <Text style={ styles.titleText } >Defense: { item.defense }</Text>
-                        <Text style={ styles.titleText } >Damage: { item.damage }</Text>
-                        <Text style={ styles.titleText } >Health: { item.health }</Text>
-                        <Text style={ styles.titleText } >Speed: { item.speed }</Text>
-                        <Text style={ styles.titleText } >Size: { item.size }</Text>
-                        <Text style={ styles.titleText } >Shots: { item.shots }</Text>
-                        <Text style={ styles.titleText } >AI value: { item.aiValue }</Text>
-                        <Text style={ styles.titleText } >Special abilities: { item.specialAbilities }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['name'] }: { item.name }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['level'] }: { item.level }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['attack'] }: { item.attack }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['defense'] }: { item.defense }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['damage'] }: { item.damage }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['health'] }: { item.health }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['speed'] }: { item.speed }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['size'] }: { item.size }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['shots'] }: { item.shots }</Text>
+                        <Text style={ styles.titleText } >{ translations['creature']['aiValue'] }: { item.aiValue }</Text>
+                        <Text style={ styles.titleText } >S{ translations['creature']['specialAbilities'] }: { item.specialAbilities }</Text>
                       </View>
                     </View>
                   )}
