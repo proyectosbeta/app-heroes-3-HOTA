@@ -18,7 +18,10 @@
     "specialAbilities": "Special abilities"
   },
   "spell": {
-    "title": "Spell"
+    "title": "Spell",
+    "name": "Name",
+    "level": "Level",
+    "effect": "Effect"
   },
   "setting": {
     "title": "Setting",

@@ -47,9 +47,9 @@ const MagicScreen = ({ navigation, route }) => {
                     />
                   </View>
                   <View style={ styles.info }>
-                    <Text style={ styles.titleText } >Name: { item.name }</Text>
-                    <Text style={ styles.titleText } >Level: { item.level }</Text>
-                    <Text style={ styles.titleText } >Effect: { item.effect }</Text>
+                    <Text style={ styles.titleText } >{ translations['spell']['name'] }: { item.name }</Text>
+                    <Text style={ styles.titleText } >{ translations['spell']['level'] }: { item.level }</Text>
+                    <Text style={ styles.titleText } >{ translations['spell']['effect'] }: { item.effect }</Text>
                     </View>
                 </View>
               )}

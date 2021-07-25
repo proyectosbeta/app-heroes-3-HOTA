@@ -18,7 +18,10 @@
     "specialAbilities": "Habilidades especiales"
   },
   "spell": {
-    "title": "Magia"
+    "title": "Magia",
+    "name": "Nombre",
+    "level": "Nivel",
+    "effect": "Efecto"
   },
   "setting": {
     "title": "Configuración",

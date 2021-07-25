@@ -18,7 +18,10 @@
     "specialAbilities": "Specjalne zdolności"
   },
   "spell": {
-    "title": "Zaklęcie"
+    "title": "Zaklęcie",
+    "name": "Nazwa",
+    "level": "Poziom",
+    "effect": "Efekt"
   },
   "setting": {
     "title": "Ustawienie",

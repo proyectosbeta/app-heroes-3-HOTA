@@ -14,11 +14,14 @@
       "speed": "Скорость",
       "size": "Размер",
       "shots": "Выстрелы",
-      "aiValue": "Ai value.",
+      "aiValue": "Ai value",
       "specialAbilities": "Специальные возможности"
     },
     "spell": {
-      "title": "Заклинание"
+      "title": "Заклинание",
+      "name": "Имя",
+      "level": "Уровень",
+      "effect": "эффект"
     },
     "setting": {
       "title": "Параметр",
