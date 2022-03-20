@@ -1,3 +1,7 @@
+# v0.4.0
+
+- Update package json.
+
 # v0.3.0
 
 - Add setting screen.
