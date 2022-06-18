@@ -4,7 +4,7 @@ import styles from './Styles';
 import {LocalizationContext} from 'services/localization/LocalizationContext';
 
 const CreatureScreen = ({navigation}) => {
-  const {translations, initializeAppLanguage} = useContext(LocalizationContext);
+  const {translations} = useContext(LocalizationContext);
 
   return (
     <View style={styles.container}>

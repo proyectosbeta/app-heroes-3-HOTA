@@ -13,7 +13,7 @@ const changeTitleNavigation = (navigation, creature) => {
 
 const Castle = ({navigation, route}) => {
   const {creature} = route.params;
-  const {translations, initializeAppLanguage} = useContext(LocalizationContext);
+  const {translations} = useContext(LocalizationContext);
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 

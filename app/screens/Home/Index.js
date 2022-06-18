@@ -7,7 +7,7 @@ import ImageHome from 'helpers/ImageHome';
 const HomeScreen = props => {
   global.currentScreenIndex = 'Home';
   const {navigation} = props;
-  const {translations, initializeAppLanguage} = useContext(LocalizationContext);
+  const {translations} = useContext(LocalizationContext);
 
   return (
     <View style={styles.container}>

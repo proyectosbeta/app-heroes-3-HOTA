@@ -7,7 +7,7 @@ import axios from 'axios';
 
 const MagicScreen = ({navigation, route}) => {
   const {magic} = route.params;
-  const {translations, initializeAppLanguage} = useContext(LocalizationContext);
+  const {translations} = useContext(LocalizationContext);
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 

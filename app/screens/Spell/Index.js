@@ -1,10 +1,10 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {ScrollView, TouchableOpacity, View, Image} from 'react-native';
 import styles from './Styles';
-import {LocalizationContext} from 'services/localization/LocalizationContext';
+// import {LocalizationContext} from 'services/localization/LocalizationContext';
 
 const SpellScreen = ({navigation}) => {
-  const {translations, initializeAppLanguage} = useContext(LocalizationContext);
+  // const {translations} = useContext(LocalizationContext);
 
   return (
     <View style={styles.container}>
