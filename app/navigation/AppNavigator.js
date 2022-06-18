@@ -25,7 +25,8 @@ export default function App() {
           },
           headerTintColor: '#ffd700',
           headerBackTitleVisible: false,
-        }}>
+        }}
+      >
         <Stack.Screen
           name="Home"
           component={HomeScreen}

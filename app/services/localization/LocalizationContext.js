@@ -49,7 +49,8 @@ export const LocalizationProvider = ({children}) => {
         setAppLanguage: setLanguage,
         appLanguage,
         initializeAppLanguage,
-      }}>
+      }}
+    >
       {children}
     </LocalizationContext.Provider>
   );

@@ -12,14 +12,16 @@ const CreatureScreen = ({navigation}) => {
       <View style={{padding: 10}}>
         <ScrollView
           showsHorizontalScrollIndicator={false}
-          showsVerticalScrollIndicator={false}>
+          showsVerticalScrollIndicator={false}
+        >
           <TouchableOpacity
             style={styles.imageContainer}
             onPress={() =>
               navigation.navigate('Castle', {
                 creature: 'castle',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Castle.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -28,7 +30,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'rampart',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Rampart.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -37,7 +40,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'tower',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Tower.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -46,7 +50,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'inferno',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Inferno.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -55,7 +60,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'necropolis',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Necropolis.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -64,7 +70,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'dungeon',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Dungeon.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -73,7 +80,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'stronghold',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Stronghold.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -82,7 +90,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'fortress',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Fortress.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -91,7 +100,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'conflux',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Conflux.png')} />
           </TouchableOpacity>
           <TouchableOpacity
@@ -100,7 +110,8 @@ const CreatureScreen = ({navigation}) => {
               navigation.navigate('Castle', {
                 creature: 'cove',
               })
-            }>
+            }
+          >
             <Image source={require('assets/images/Castle/Cove.png')} />
           </TouchableOpacity>
         </ScrollView>
