@@ -1,7 +1,7 @@
 # v0.5.0
 
 - [update] Update package json.
-- [feat] Add lint and prettier.
+- [refactor] Add lint and prettier.
 
 # v0.4.0
 
