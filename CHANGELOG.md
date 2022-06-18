@@ -2,6 +2,7 @@
 
 - [update] Update package json.
 - [refactor] Add lint and prettier.
+- [refactor] Castle and Magic.
 
 # v0.4.0
 

@@ -1,25 +1,22 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState, useCallback} from 'react';
 import {DOMAIN} from 'constants/domain';
 import {FlatList, View, Text, Image} from 'react-native';
 import styles from './CastleStyles';
 import {LocalizationContext} from 'services/localization/LocalizationContext';
 import axios from 'axios';
 
-const changeTitleNavigation = (navigation, creature) => {
-  navigation.setOptions({
-    title: creature,
-  });
-};
+// const changeTitleNavigation = (navigation, creature) => {
+//   navigation.setOptions({
+//     title: creature,
+//   });
+// };
 
 const Castle = ({navigation, route}) => {
   const {creature} = route.params;
   const {translations} = useContext(LocalizationContext);
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
-
-  // changeTitleNavigation(navigation, creature);
-
-  useEffect(async () => {
+  const loadData = useCallback(() => {
     axios
       .get(`${DOMAIN}creature/${creature}`)
       .then(response => {
@@ -28,7 +25,11 @@ const Castle = ({navigation, route}) => {
       })
       .catch(error => console.error(error))
       .finally(() => setLoading(false));
-  }, []);
+  }, [creature]);
+
+  useEffect(() => loadData(), [loadData]);
+
+  // changeTitleNavigation(navigation, creature);
 
   return (
     <View style={styles.container}>

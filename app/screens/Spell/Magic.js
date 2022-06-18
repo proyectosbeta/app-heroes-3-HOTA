@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState, useCallback} from 'react';
 import {DOMAIN} from 'constants/domain';
 import {FlatList, View, Text, Image} from 'react-native';
 import styles from './MagicStyles';
@@ -10,8 +10,7 @@ const MagicScreen = ({navigation, route}) => {
   const {translations} = useContext(LocalizationContext);
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
-
-  useEffect(async () => {
+  const loadData = useCallback(() => {
     axios
       .get(`${DOMAIN}spell/${magic}`)
       .then(response => {
@@ -22,7 +21,9 @@ const MagicScreen = ({navigation, route}) => {
         console.error('The error: ', error);
       })
       .finally(() => setLoading(false));
-  }, []);
+  }, [magic]);
+
+  useEffect(() => loadData(), [loadData]);
 
   return (
     <View style={styles.container}>
