@@ -1,9 +1,9 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 import AppContainer from 'app/navigation/AppNavigator';
-import { LocalizationProvider } from 'services/localization/LocalizationContext';
-import { ThemeProvider } from "react-native-elements";
-import theme from "constants/theme";
+import {LocalizationProvider} from 'services/localization/LocalizationContext';
+import {ThemeProvider} from 'react-native-elements';
+import theme from 'constants/theme';
 import styles from './AppStyles';
 
 const App: () => React$Node = () => {
