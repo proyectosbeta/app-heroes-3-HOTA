@@ -16,6 +16,7 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 One terminal:
 
 ```bash
+yarn install
 react-native start
 ```
 
