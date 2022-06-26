@@ -4,6 +4,7 @@
 - [refactor] Add lint and prettier.
 - [refactor] Castle and Magic.
 - [doc] Update readme file.
+- [feat] Add Sonarqube.
 
 # v0.4.0
 

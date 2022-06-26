@@ -60,3 +60,6 @@ buck-out/
 
 # React native
 __tests__
+
+# Sonarqube
+.scannerwork

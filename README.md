@@ -8,9 +8,11 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 - React 17.0.2
 - React Native 0.64.3
 - Yarn 1.22.xx
+- NodeJS v14.19.XX
 - Npm 8.13.1
 - OpenJDK 11.0.xx
 - Gradle 6.5
+- Sonarqube 9.5.XX
 
 # Development
 
@@ -45,3 +47,52 @@ npx react-native run-android --variant=release
 ## APK path
 
 The apk is in android/app/build/outputs/apk/release/
+
+## Quality code
+
+### Sonarqube
+
+- [Site](https://www.sonarqube.org/)
+
+#### Install
+
+##### With docker
+
+```bash
+docker pull sonarqube
+docker run -d --name sonarqube -p 9100:9000 -p 9092:9092 sonarqube
+```
+
+##### Web access
+
+```
+http://localhost:9100
+```
+
+###### Credentials
+
+- User: admin
+- Password: admin
+
+#### Use with docker
+
+```bash
+docker pull newtmitch/sonar-scanner
+
+```
+
+##### GNU-Linux/MacOS
+
+Execute
+
+```bash
+docker run -ti -v /home/proyectosbeta/repositorioGit/app-heroes-3-HOTA:/usr/src --link sonarqube newtmitch/sonar-scanner
+```
+
+##### Microsoft Windows
+
+Execute
+
+```bash
+docker run -ti -v C:\Users\proyectosbeta\repositoriosGit\app-heroes-3-HOTA:/usr/src --link sonarqube newtmitch/sonar-scanner
+```
