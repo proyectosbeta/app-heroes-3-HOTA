@@ -5,10 +5,11 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
 # Tecnologies
 
-- React 17.0.xx
-- React Native 0.64.xx
+- React 17.0.2
+- React Native 0.64.3
 - Yarn 1.22.xx
-- OpenJDK 14.0.xx
+- Npm 8.13.1
+- OpenJDK 11.0.xx
 - Gradle 6.5
 
 # Development
@@ -17,7 +18,7 @@ One terminal:
 
 ```bash
 yarn install
-react-native start
+npx react-native start
 ```
 
 Another terminal:
@@ -38,7 +39,7 @@ cd android && ./gradlew assembleRelease && cd ../
 At the root of the project.
 
 ```bash
-react-native run-android --variant=release
+npx react-native run-android --variant=release
 ```
 
 ## APK path
