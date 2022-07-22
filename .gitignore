@@ -63,3 +63,5 @@ __tests__
 
 # Sonarqube
 .scannerwork
+
+android/java_pid16541.hprof
