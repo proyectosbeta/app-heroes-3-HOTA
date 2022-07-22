@@ -12,7 +12,7 @@ const MagicScreen = ({navigation, route}) => {
   const [data, setData] = useState([]);
   const loadData = useCallback(() => {
     axios
-      .get(`${DOMAIN}spell/${magic}`)
+      .get(`${DOMAIN}spells/${magic}`)
       .then(response => {
         const spells = response.data;
         setData(spells);

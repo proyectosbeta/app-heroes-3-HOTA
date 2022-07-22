@@ -18,7 +18,7 @@ const Castle = ({navigation, route}) => {
   const [data, setData] = useState([]);
   const loadData = useCallback(() => {
     axios
-      .get(`${DOMAIN}creature/${creature}`)
+      .get(`${DOMAIN}creatures/${creature}`)
       .then(response => {
         const creatures = response.data;
         setData(creatures);

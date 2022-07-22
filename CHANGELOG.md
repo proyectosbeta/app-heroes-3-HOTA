@@ -1,3 +1,8 @@
+# v0.5.1
+
+- [refactor] Change the path of consumption of endpoints creatures and spells.
+- [docs] Update readme file.
+
 # v0.5.0
 
 - [update] Update package json.
