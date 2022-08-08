@@ -86,7 +86,7 @@ docker pull newtmitch/sonar-scanner
 Execute
 
 ```bash
-docker run -ti -v /home/proyectosbeta/repositorioGit/app-heroes-3-HOTA:/usr/src --link sonarqube newtmitch/sonar-scanner
+docker run -ti -v /home/proyectosbeta/repositoriosGit/app-heroes-3-HOTA:/usr/src --link sonarqube newtmitch/sonar-scanner
 ```
 
 ##### Microsoft Windows
