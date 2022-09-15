@@ -3,7 +3,7 @@
 The mobile app for Heroes 3 HOTA.
 Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
-# Tecnologies
+## Tecnologies
 
 - React 18.2.0
 - React Native 0.70.0
@@ -14,7 +14,7 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 - Gradle 7.5.1
 - Sonarqube 9.5.XX
 
-# Development
+## Development
 
 One terminal:
 
@@ -30,13 +30,13 @@ cd android && ./gradlew clean && cd ../
 npx react-native run-android
 ```
 
-# Developer debug
+### Developer debug
 
 ```bash
 cd android && ./gradlew assembleRelease && cd ../
 ```
 
-# Production
+## Production
 
 At the root of the project.
 
@@ -44,7 +44,7 @@ At the root of the project.
 npx react-native run-android --variant=release
 ```
 
-## APK path
+### APK path
 
 The apk is in android/app/build/outputs/apk/release/
 
