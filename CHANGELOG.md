@@ -1,6 +1,10 @@
 
 # Release Notes
 
+## v0.6.0
+
+- [build] React Native 0.70.0
+
 ## v0.5.1
 
 - [refactor] Change the path of consumption of endpoints creatures and spells.
