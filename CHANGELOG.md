@@ -1,6 +1,10 @@
 
 # Release Notes
 
+## v0.6.1
+
+- [fix] Fix endpoints api to work for android 11 and 12 devices.
+
 ## v0.6.0
 
 - [build] React Native 0.70.0
