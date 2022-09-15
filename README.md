@@ -12,6 +12,7 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 - Npm 8.19.1
 - OpenJDK 17.0.4
 - Gradle 7.5.1
+- Android gradle plugin 7.2.1
 - Sonarqube 9.5.XX
 
 ## Development
