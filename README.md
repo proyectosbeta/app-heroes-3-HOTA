@@ -7,7 +7,7 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 
 - React 18.2.0
 - React Native 0.70.1
-- NodeJS v14.20.0
+- NodeJS v14.20.1
 - Yarn 1.22.19
 - Npm 8.19.1
 - OpenJDK 17.0.4
