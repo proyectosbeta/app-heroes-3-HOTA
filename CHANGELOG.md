@@ -5,6 +5,7 @@
 
 - [docs] Update readme file.
 - [update] Update package json.
+- [build] Update React Native 0.70.4
 
 ## v0.7.0
 
