@@ -1,6 +1,10 @@
 
 # Release Notes
 
+## v0.7.2
+
+- [update] Update package json.
+
 ## v0.7.1
 
 - [docs] Update readme file.
