@@ -4,6 +4,7 @@
 ## v0.10.0
 
 - [update] Update package json.
+- [fix] Change the domain for the api heroes III Hota.
 
 ## v0.9.0
 
