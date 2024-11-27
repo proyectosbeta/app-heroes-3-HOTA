@@ -6,10 +6,10 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 ## Tecnologies
 
 - React 18.2.0
-- React Native 0.71.18
+- React Native 0.71.19
 - Metro v0.73.10
 - NodeJS v20.18.0
-- Yarn 1.22.22
+- Yarn 3.6.4
 - Npm 10.8.2
 - OpenJDK 17.0.13
 - Gradle 7.3.1
@@ -21,6 +21,8 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 One terminal:
 
 ```bash
+yarn set version 3.6.4
+yarn --version
 yarn install
 npx react-native start --reset-cache
 ```
