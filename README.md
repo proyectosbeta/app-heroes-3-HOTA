@@ -6,7 +6,7 @@ Consume the API https://github.com/proyectosbeta/api-heroes-3-HOTA
 ## Tecnologies
 
 - React 18.2.0
-- React Native 0.71.1
+- React Native 0.71.2
 - Metro v0.73.10
 - NodeJS v20.18.0
 - Yarn 1.22.22
