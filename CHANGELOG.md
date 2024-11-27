@@ -5,6 +5,8 @@
 
 - [fix] Change the domain for the api heroes III Hota.
 - [update] Update package.json.
+- [update] React Native 0.70.0 to React Native 0.71.0
+- [update] React Native 0.71.0 to React Native 0.71.1
 
 ## v0.10.0
 
