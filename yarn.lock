@@ -4710,10 +4710,10 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
-jsc-android@^250230.2.1:
-  version "250230.2.1"
-  resolved "https://registry.yarnpkg.com/jsc-android/-/jsc-android-250230.2.1.tgz#3790313a970586a03ab0ad47defbc84df54f1b83"
-  integrity sha512-KmxeBlRjwoqCnBBKGsihFtvsBHyUFlBxJPK4FzeYcIuBfdjv6jFys44JITAgSTbQD+vIdwMEfyZklsuQX0yI1Q==
+jsc-android@^250231.0.0:
+  version "250231.0.0"
+  resolved "https://registry.yarnpkg.com/jsc-android/-/jsc-android-250231.0.0.tgz#91720f8df382a108872fa4b3f558f33ba5e95262"
+  integrity sha512-rS46PvsjYmdmuz1OAWXY/1kCYG7pnf1TBqeTiOJr1iDz7s5DLxxC9n/ZMknLDxzYzNVfI7R95MH10emSSG1Wuw==
 
 jsc-safe-url@^0.2.2:
   version "0.2.4"
@@ -5946,7 +5946,7 @@ react-native-animatable@1.3.3:
   dependencies:
     prop-types "^15.7.2"
 
-react-native-codegen@^0.71.3:
+react-native-codegen@^0.71.5:
   version "0.71.6"
   resolved "https://registry.yarnpkg.com/react-native-codegen/-/react-native-codegen-0.71.6.tgz#481a610c3af9135b09e1e031da032e7270e0cc1b"
   integrity sha512-e5pR4VldIhEaFctfSAEgxbng0uG4gjBQxAHes3EKLdosH/Av90pQfSe9IDVdFIngvNPzt8Y14pNjrtqov/yNIg==
@@ -5980,7 +5980,7 @@ react-native-gesture-handler@^2.8.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-gradle-plugin@^0.71.14:
+react-native-gradle-plugin@^0.71.15:
   version "0.71.19"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.19.tgz#3379e28341fcd189bc1f4691cefc84c1a4d7d232"
   integrity sha512-1dVk9NwhoyKHCSxcrM6vY6cxmojeATsBobDicX0ZKr7DgUF2cBQRTKsimQFvzH8XhOVXyH8p4HyDSZNIFI8OlQ==
@@ -6046,10 +6046,10 @@ react-native-webview@^11.26.1:
     escape-string-regexp "2.0.0"
     invariant "2.2.4"
 
-react-native@0.71.2:
-  version "0.71.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.71.2.tgz#b6977eda2a6dc10baa006bf4ab1ee08318607ce9"
-  integrity sha512-ZSianM+j+09LoEdVIhrAP/uP8sQhT7dH6olCqM2xlpxmfCgA5NubsK6NABIuZiBlmmqjigyijm5Y/GhBIHDvEg==
+react-native@0.71.3:
+  version "0.71.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.71.3.tgz#0faab799c49e61ba12df9e6525c3ac7d595d673c"
+  integrity sha512-RYJXCcQGa4NTfKiPgl92eRDUuQ6JGDnHqFEzRwJSqEx9lWvlvRRIebstJfurzPDKLQWQrvITR7aI7e09E25mLw==
   dependencies:
     "@jest/create-cache-key-function" "^29.2.1"
     "@react-native-community/cli" "10.1.3"
@@ -6065,7 +6065,7 @@ react-native@0.71.2:
     event-target-shim "^5.0.1"
     invariant "^2.2.4"
     jest-environment-node "^29.2.1"
-    jsc-android "^250230.2.1"
+    jsc-android "^250231.0.0"
     memoize-one "^5.0.0"
     metro-react-native-babel-transformer "0.73.7"
     metro-runtime "0.73.7"
@@ -6075,8 +6075,8 @@ react-native@0.71.2:
     pretty-format "^26.5.2"
     promise "^8.3.0"
     react-devtools-core "^4.26.1"
-    react-native-codegen "^0.71.3"
-    react-native-gradle-plugin "^0.71.14"
+    react-native-codegen "^0.71.5"
+    react-native-gradle-plugin "^0.71.15"
     react-refresh "^0.4.0"
     react-shallow-renderer "^16.15.0"
     regenerator-runtime "^0.13.2"
