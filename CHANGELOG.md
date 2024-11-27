@@ -9,6 +9,7 @@
 - [update] React Native 0.71.0 to React Native 0.71.1
 - [update] React Native 0.71.1 to React Native 0.71.2
 - [update] React Native 0.71.2 to React Native 0.71.3
+- [update] React Native 0.71.3 to React Native 0.71.10
 
 ## v0.10.0
 
