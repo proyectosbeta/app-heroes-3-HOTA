@@ -1,6 +1,10 @@
 
 # Release Notes
 
+## v0.12.0
+
+- [refactor] Use lint
+
 ## v0.11.0
 
 - [fix] Change the domain for the api heroes III Hota.

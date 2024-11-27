@@ -40,6 +40,20 @@ npx react-native run-android
 cd android && ./gradlew assembleRelease && cd ../
 ```
 
+## Dev Tools
+
+### Lint
+
+```bash
+yarn lint
+```
+
+#### Fix
+
+```bash
+yarn lint --fix
+```
+
 ## Production
 
 At the root of the project.
