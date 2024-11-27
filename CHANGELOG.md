@@ -1,9 +1,14 @@
 
 # Release Notes
 
+## v0.11.0
+
+- [fix] Change the domain for the api heroes III Hota.
+- [update] Update package.json.
+
 ## v0.10.0
 
-- [update] Update package json.
+- [update] Update package.json.
 - [fix] Change the domain for the api heroes III Hota.
 
 ## v0.9.0
