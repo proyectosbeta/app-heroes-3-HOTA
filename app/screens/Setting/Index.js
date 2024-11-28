@@ -20,8 +20,7 @@ const ScreenSetting = ({navigation}) => {
         <View key={item}>
           <TouchableOpacity
             style={styles.touchable}
-            onPress={() => handleSetLanguage(item)}
-          >
+            onPress={() => handleSetLanguage(item)}>
             <Text style={styles.items}>{item}</Text>
             {appLanguage === item ? <Text style={styles.check}>√</Text> : null}
           </TouchableOpacity>

@@ -1,10 +1,24 @@
 
 # Release Notes
 
+## v0.12.0
+
+- [refactor] Use lint
+- [build] React Native 0.71.19 to React Native 0.72.0
+- [build] React Native 0.72.0 to React Native 0.72.14
+- [build] React Native 0.72.14 to React Native 0.72.17
+- [build] React Native 0.72.17 to React Native 0.73.10
+- [build] React Native 0.73.10 to React Native 0.73.11
+- [build] React Native 0.73.11 to React Native 0.76.2
+- [build] Compile only for armeabi-v7a and arm64-v8a architectures
+- [update] Update react-native-screens package
+- [update] Update package.json
+- [build] React Native 0.76.2 to React Native 0.76.3
+
 ## v0.11.0
 
 - [fix] Change the domain for the api heroes III Hota.
-- [update] Update package.json.
+- [update] Update package.json
 - [build] React Native 0.70.0 to React Native 0.71.0
 - [build] React Native 0.71.0 to React Native 0.71.1
 - [build] React Native 0.71.1 to React Native 0.71.2

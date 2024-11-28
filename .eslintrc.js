@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
-  extends: '@react-native-community',
+  extends: '@react-native',
   plugins: ['react-hooks'],
-  parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
