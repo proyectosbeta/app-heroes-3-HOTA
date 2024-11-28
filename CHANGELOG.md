@@ -13,6 +13,7 @@
 - [build] Compile only for armeabi-v7a and arm64-v8a architectures
 - [update] Update react-native-screens package
 - [update] Update package.json
+- [build] React Native 0.76.2 to React Native 0.76.3
 
 ## v0.11.0
 
