@@ -3163,7 +3163,7 @@ __metadata:
     jest: ^29.6.3
     prettier: 2.8.8
     react: 18.2.0
-    react-native: 0.73.10
+    react-native: 0.73.11
     react-native-elements: ^3.4.3
     react-native-gesture-handler: ^2.8.0
     react-native-localization: ^2.3.1
@@ -8361,9 +8361,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.73.10":
-  version: 0.73.10
-  resolution: "react-native@npm:0.73.10"
+"react-native@npm:0.73.11":
+  version: 0.73.11
+  resolution: "react-native@npm:0.73.11"
   dependencies:
     "@jest/create-cache-key-function": ^29.6.3
     "@react-native-community/cli": 12.3.7
@@ -8407,7 +8407,7 @@ __metadata:
     react: 18.2.0
   bin:
     react-native: cli.js
-  checksum: 5e5d9d061e901a66b2656ba4c61f5d1cf7157cb59fa6a0256c47a18c476fb177fae642dedb5e270a24983b3b7575eaaa842f49927ba57e1941e79291d7cc4bc7
+  checksum: 50681466ead762ac902dcbd36f273ec8db9f8ec50d33f07339608d281e7e20a0bc8d221d63d68c1ee98e3701fbbabff3b2d923ac8a1d36ecb956d7b827437b2f
   languageName: node
   linkType: hard
 
