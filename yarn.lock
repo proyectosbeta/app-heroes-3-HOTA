@@ -3191,11 +3191,11 @@ __metadata:
     react-native: 0.76.2
     react-native-elements: ^3.4.3
     react-native-gesture-handler: ^2.20.0
-    react-native-localization: ^2.3.1
-    react-native-localize: ^2.2.6
+    react-native-localization: ^2.3.2
+    react-native-localize: ^3.3.0
     react-native-modal: ^13.0.1
-    react-native-safe-area-context: ^4.4.1
-    react-native-screens: ^3.35.0
+    react-native-safe-area-context: ^4.14.0
+    react-native-screens: ^4.3.0
     react-native-vector-icons: ^9.2.0
     react-native-webview: ^11.26.1
     react-test-renderer: 18.3.1
@@ -8283,7 +8283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-localization@npm:^2.3.1":
+"react-native-localization@npm:^2.3.2":
   version: 2.3.2
   resolution: "react-native-localization@npm:2.3.2"
   dependencies:
@@ -8299,20 +8299,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-localize@npm:^2.2.6":
-  version: 2.2.6
-  resolution: "react-native-localize@npm:2.2.6"
+"react-native-localize@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "react-native-localize@npm:3.3.0"
   peerDependencies:
-    react: ">=16.8.6"
-    react-native: ">=0.60.0"
-    react-native-macos: ">=0.64.0"
-    react-native-windows: ">=0.62.0"
+    react: ">=18.1.0"
+    react-native: ">=0.70.0"
+    react-native-macos: ">=0.70.0"
   peerDependenciesMeta:
     react-native-macos:
       optional: true
-    react-native-windows:
-      optional: true
-  checksum: aa03c37a254e4bec71dcd8b9844ece091e9b14ff38b6e1db6307674d33f62477c8d42b5a022da8ec892586004985846e08b79822f05989382ef07ba696438917
+  checksum: b6abffb3bbe3a47f171afb4d9a5ca1268576bf191d5ebe9f929308acd5892e67aedf4a5ef5d65eae67482ef357dc644791e8492c38c3d1cdfa449d63ab9b7df9
   languageName: node
   linkType: hard
 
@@ -8341,7 +8338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.4.1":
+"react-native-safe-area-context@npm:^4.14.0":
   version: 4.14.0
   resolution: "react-native-safe-area-context@npm:4.14.0"
   peerDependencies:
@@ -8351,16 +8348,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:^3.35.0":
-  version: 3.35.0
-  resolution: "react-native-screens@npm:3.35.0"
+"react-native-screens@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "react-native-screens@npm:4.3.0"
   dependencies:
     react-freeze: ^1.0.0
     warn-once: ^0.1.0
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: cb8a0c8d8a41a8a1065cc2253e4272a970366a7d80bc54e889b2f48de7ccccd3e828e2701de39c0453a67956ec0cad140fb506324cce04419b5e2eb495c038c2
+  checksum: b43ae4145e264582732ec53c78ba88de678c8ce7f9687b0526bf647c7d1ea8311ee821945848a55fb04f145bf8cae189d2d4e0f49e52571cb23acf083f2df858
   languageName: node
   linkType: hard
 
