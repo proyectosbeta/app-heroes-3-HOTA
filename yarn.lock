@@ -2493,7 +2493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/drawer@npm:^6.5.8":
+"@react-navigation/drawer@npm:^6.7.2":
   version: 6.7.2
   resolution: "@react-navigation/drawer@npm:6.7.2"
   dependencies:
@@ -2548,7 +2548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/stack@npm:^6.3.29":
+"@react-navigation/stack@npm:^6.4.1":
   version: 6.4.1
   resolution: "@react-navigation/stack@npm:6.4.1"
   dependencies:
@@ -3175,9 +3175,9 @@ __metadata:
     "@react-native/eslint-config": 0.76.2
     "@react-native/metro-config": 0.76.2
     "@react-native/typescript-config": 0.76.2
-    "@react-navigation/drawer": ^6.5.8
+    "@react-navigation/drawer": ^6.7.2
     "@react-navigation/native": ^6.1.18
-    "@react-navigation/stack": ^6.3.29
+    "@react-navigation/stack": ^6.4.1
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0
     axios: ^1.7.8
