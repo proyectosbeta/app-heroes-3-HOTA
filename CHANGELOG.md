@@ -11,6 +11,7 @@
 - [build] React Native 0.73.10 to React Native 0.73.11
 - [build] React Native 0.73.11 to React Native 0.76.2
 - [build] Compile only for armeabi-v7a and arm64-v8a architectures
+- [build] Update react-native-screens package
 
 ## v0.11.0
 
