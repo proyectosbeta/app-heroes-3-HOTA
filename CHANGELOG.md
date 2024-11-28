@@ -9,6 +9,7 @@
 - [build] React Native 0.72.14 to React Native 0.72.17
 - [build] React Native 0.72.17 to React Native 0.73.10
 - [build] React Native 0.73.10 to React Native 0.73.11
+- [build] React Native 0.73.11 to React Native 0.76.2
 
 ## v0.11.0
 
