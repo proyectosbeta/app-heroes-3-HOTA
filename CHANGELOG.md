@@ -6,6 +6,7 @@
 - [refactor] Use lint
 - [build] React Native 0.71.19 to React Native 0.72.0
 - [build] React Native 0.72.0 to React Native 0.72.14
+- [build] React Native 0.72.14 to React Native 0.72.17
 
 ## v0.11.0
 
